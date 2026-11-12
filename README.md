@@ -9,53 +9,45 @@ It combines web search, language models, and a stateful workflow to transform pu
 
 ## Application Screenshots
 
-### Main Interface
-
 <p align="center">
-  <img src="screenshots/1.png" width="85%" alt="PotentialScout AI main interface">
+  <img src="screenshots/1.png" width="24%" alt="Screenshot 1">
+  <img src="screenshots/2.png" width="24%" alt="Screenshot 2">
+  <img src="screenshots/3.png" width="24%" alt="Screenshot 3">
+  <img src="screenshots/4.png" width="24%" alt="Screenshot 4">
 </p>
 
-### Company Research
+<details>
+<summary>View all screenshots</summary>
 
 <p align="center">
-  <img src="screenshots/2.png" width="85%" alt="Company research interface">
-</p>
-
-### Research Report
-
-<p align="center">
-  <img src="screenshots/3.png" width="85%" alt="Generated company research report">
-</p>
-
-### Verified Research
-
-<p align="center">
-  <img src="screenshots/4.png" width="85%" alt="LLM-reviewed research report">
-</p>
-
-### Opportunity Discovery
-
-<p align="center">
-  <img src="screenshots/5.png" width="85%" alt="Identified AI and software opportunities">
-</p>
-
-### Opportunity Scoring
-
-<p align="center">
-  <img src="screenshots/6.png" width="85%" alt="Opportunity scores and rankings">
-</p>
-
-### Additional Analysis Examples
-
-<p align="center">
-  <img src="screenshots/7.png" width="48%" alt="Additional company analysis">
-  <img src="screenshots/8.png" width="48%" alt="Additional research report">
+  <img src="screenshots/5.png" width="24%" alt="Screenshot 5">
+  <img src="screenshots/6.png" width="24%" alt="Screenshot 6">
+  <img src="screenshots/7.png" width="24%" alt="Screenshot 7">
+  <img src="screenshots/8.png" width="24%" alt="Screenshot 8">
 </p>
 
 <p align="center">
-  <img src="screenshots/9.png" width="48%" alt="Additional opportunity analysis">
-  <img src="screenshots/10.png" width="48%" alt="Additional opportunity scoring">
+  <img src="screenshots/9.png" width="24%" alt="Screenshot 9">
+  <img src="screenshots/10.png" width="24%" alt="Screenshot 10">
+  <img src="screenshots/11.png" width="24%" alt="Screenshot 11">
+  <img src="screenshots/12.png" width="24%" alt="Screenshot 12">
 </p>
+
+<p align="center">
+  <img src="screenshots/13.png" width="24%" alt="Screenshot 13">
+  <img src="screenshots/14.png" width="24%" alt="Screenshot 14">
+  <img src="screenshots/15.png" width="24%" alt="Screenshot 15">
+  <img src="screenshots/16.png" width="24%" alt="Screenshot 16">
+</p>
+
+<p align="center">
+  <img src="screenshots/17.png" width="24%" alt="Screenshot 17">
+  <img src="screenshots/18.png" width="24%" alt="Screenshot 18">
+  <img src="screenshots/19.png" width="24%" alt="Screenshot 19">
+  <img src="screenshots/20.png" width="24%" alt="Screenshot 20">
+</p>
+
+</details>
 
 ## Overview
 
@@ -79,25 +71,25 @@ Users provide a company name, and the application performs a multi-stage researc
 The application uses LangGraph to coordinate a sequential, stateful workflow.
 
 ```text
-                Company Name
-                     |
-                     v
-              Research Node
-                     |
-                     v
-              Analysis Node
-                     |
-                     v
-            Verification Node
-                     |
-                     v
-             Opportunity Node
-                     |
-                     v
-               Scoring Node
-                     |
-                     v
-              Final Results
+             Company Name
+                  |
+                  v
+             Research Node
+                  |
+                  v
+             Analysis Node
+                  |
+                  v
+           Verification Node
+                  |
+                  v
+            Opportunity Node
+                  |
+                  v
+              Scoring Node
+                  |
+                  v
+             Final Results
 ```
 
 ### Workflow Components
@@ -137,7 +129,7 @@ Score = (
 ) / 5
 ```
 
-Opportunities are then categorized into priority levels to help users focus on the most promising findings.
+Opportunities are categorized into priority levels to help users focus on the most promising findings.
 
 ## Technology Stack
 
@@ -201,7 +193,7 @@ PotentialScoutAI/
 ### 1. Clone the repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/mfarooq111/PotentialScoutAI.git
 cd PotentialScoutAI
 ```
 
